@@ -6,6 +6,21 @@ middleclass
 
 A simple OOP library for Lua. It has inheritance, metamethods (operators), class variables and weak mixin support.
 
+Notes about this fork
+====================
+
+This fork adds a symlink to `middleclass.lua` file in `lua/` directory to allow
+using `middleclass` repo with Neovim plugin managers. 
+I have opened a [pull request](https://github.com/kikito/middleclass/pull/65) to
+merge this into upstream.  Also for convenience, this repo has a
+[wiki](https://github.com/anuvyklack/middleclass/wiki), which is a copy of
+upstream wiki. 
+
+Since Neovim 5.0 most new plugins become written in Lua. Lua allows some sort of
+OOP based on metatables, and most of the plugins which use OOP has a `class.lua`
+file with practically identical code. To reduce the amount of boilerplate code,
+I created this fork and suggest to use it as a standard class realization.
+
 Quick Look
 ==========
 
