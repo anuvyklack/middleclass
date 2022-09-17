@@ -16,7 +16,7 @@ merge this into upstream.  Also for convenience, this repo has a
 [wiki](https://github.com/anuvyklack/middleclass/wiki), which is a copy of
 upstream wiki. 
 
-Since Neovim 5.0 most new plugins become written in Lua. Lua allows some sort of
+Since Neovim 0.5 most new plugins become written in Lua. Lua allows some sort of
 OOP based on metatables, and most of the plugins which use OOP has a `class.lua`
 file with practically identical code. To reduce the amount of boilerplate code,
 I created this fork and suggest to use it as a standard class realization.
